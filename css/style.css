@@ -1,0 +1,54 @@
+.wrapper {
+  display: flex;
+}
+
+.records {
+  flex-basis: 250px;
+}
+
+.notepad {
+  display: flex;
+  flex-direction: column;
+}
+
+
+table {
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+td {
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border: 1px solid brown;
+  cursor: pointer;
+}
+
+.right {
+  background-color: green;
+}
+
+.error {
+  background-color: brown;
+}
+
+.pink {
+  background-color: hotpink;
+}
+
+.win {
+  font-size: 36px;
+  text-align: center;
+}
+
+.lose {
+  background-color: gray;
+}
+
+.field__info {
+  display: flex;
+  gap: 50px;
+  font-size: 24px;
+}
